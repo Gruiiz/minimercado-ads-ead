@@ -1,0 +1,106 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+header .lead {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Navegação */
+.navbar {
+    margin-top: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.nav-link {
+    color: #495057;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Carrossel */
+.carousel {
+    margin-bottom: 2rem;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Seções de Produtos */
+section {
+    margin: 2rem 0;
+}
+
+section h2 {
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+.col-md-6 {
+    margin-bottom: 2rem;
+}
+
+.col-md-6 h3 {
+    color: #28a745;
+    margin-bottom: 1rem;
+}
+
+.col-md-6 img {
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulário de Cadastro */
+form {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    text-align: center;
+    color: #6c757d;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
+
+    .carousel-item img {
+        max-height: 300px;
+    }
+}
